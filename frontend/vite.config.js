@@ -10,7 +10,7 @@ export default defineConfig({
       '.yflix.online', // Use a leading dot to allow subdomains like www.your-custom-domain.com
     ],
     proxy:{
-      '/api' : {target:"https://api.yflix.online"} // enter your local ipv4 to host on local network
+      '/api' : {target:"http://localhost:5010"} // enter your local ipv4 to host on local network
     }
   }
 })
