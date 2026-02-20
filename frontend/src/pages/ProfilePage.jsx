@@ -107,8 +107,8 @@ export default function ProfilePage(){
 
   const faqs = [
     {
-      question: "What is KFlix?",
-      answer: "KFlix is a streaming platform that allows you to discover and watch movies and TV shows. Browse through various categories, create watchlists, chat with Flix AI bot and enjoy your favorite content."
+      question: "What is YFlix?",
+      answer: "YFlix is a streaming platform that allows you to discover and watch movies and TV shows. Browse through various categories, create watchlists, chat with Flix AI bot and enjoy your favorite content."
     },
     {
       question: "Site blocked on Airtel network or anyother",
@@ -131,8 +131,8 @@ export default function ProfilePage(){
       answer: "Use brave browser or any adblocker like ublock or adblock plus to block all the ads and redirects."
     },
     {
-      question: "Is KFlix free to use?",
-      answer: "Yes, KFlix is completely free to use. You can browse, search, and watch content without any subscription fees."
+      question: "Is YFlix free to use?",
+      answer: "Yes, YFlix is completely free to use. You can browse, search, and watch content without any subscription fees."
     },
     {
       question: "What should I do if I forgot my password?",

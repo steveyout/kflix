@@ -28,7 +28,7 @@ export default function Terms() {
         <div className="mb-6 sm:mb-8">
           <h2 className="text-lg sm:text-xl font-semibold text-white mb-2">Important Notice</h2>
           <p className="text-base text-gray-400">
-            No content of Movies or Tv shows stored in KFlix servers. All the content is streamed from
+            No content of Movies or Tv shows stored in YFlix servers. All the content is streamed from
             third-party providers.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function Terms() {
         <div>
           <h2 className="text-lg sm:text-xl font-semibold text-white mb-2">Feedback & Suggestions</h2>
           <p className="text-base text-gray-400">
-            We welcome your suggestions to improve KFlix. For any queries, please reach out via{' '}
+            We welcome your suggestions to improve YFlix. For any queries, please reach out via{' '}
             <Link to="/contactus" className="text-blue-400 hover:underline">
               Contact Us
             </Link>
