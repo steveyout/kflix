@@ -5,8 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server:{
+    allowedHosts: [
+      'yflix.online', // Allow your specific domain
+      '.yflix.online', // Use a leading dot to allow subdomains like www.your-custom-domain.com
+    ],
     proxy:{
-      '/api' : {target:"http://localhost:5000"} // enter your local ipv4 to host on local network
+      '/api' : {target:"https://api.yflix.online"} // enter your local ipv4 to host on local network
     }
   }
 })
